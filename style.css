@@ -1,0 +1,596 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-nav{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.upper-head-buy a{
+    background-color: rgb(10, 172, 10);
+    text-decoration: none;
+    padding: 0.5rem 1rem; 
+}
+.hero-right{
+    position: relative;
+}
+.hero-right img{
+    max-width: 600px;
+    max-height: 600px;
+}
+.hero-head-title{
+    font-size: 4rem;
+} 
+.easy-pay{
+    position: absolute;
+    bottom: 50px;
+    left: -50px;
+    background-color: rgb(49, 48, 48);
+}
+.easy-pay span{
+    color: rgb(119, 52, 226);
+}
+.efficiency{
+    position: absolute;
+    top: 10px;
+    right: 170px;
+    max-width: 250px;
+}
+.efficiency img{
+    width: 100%;
+}
+.slide{
+    max-width: 250px;
+    padding: 0 30px;
+}
+.slide img{
+    width: 100%;
+}
+
+.service-head-title{
+    font-size: 3rem;
+}
+.service-content-desc h3{
+   color: rgb(110, 58, 194); 
+}
+.service-section i{
+    padding: 25px;
+    background-color:  rgb(110, 58, 194);
+    color: rgb(221, 224, 226);
+}
+
+.service-img-div{
+    max-width: 600px;
+    min-height: 600px;
+    max-height: 800px;
+}
+.service-img-div img{
+    width: 100%;
+    height: 100%;
+}
+.merchant-right{
+    position: relative;
+}
+.merchant-bg{
+    max-width: 600px;
+    transform: skew(-3deg,-10deg);
+}
+.merchant-bg img{
+    width: 100%;
+    border-radius: 20px;
+
+}
+.shoping-icons{
+    position: absolute;
+    right: -25px;
+    top: -63px;
+    bottom: 20px;
+    max-width: 320px;
+}
+.shoping-icons img{
+    width: 100%;
+}
+.last-cost{
+    position: absolute;
+    left: -4px;
+    bottom: -50px;
+    max-width: 250px;
+}
+.last-cost img{
+    width: 100%;
+}
+.card-overlay {
+    background-color: rgb(50, 45, 53);
+    box-shadow: 0px 4px 8px 0px;
+}
+.card-text{
+    color: rgb(105, 87, 209);
+}
+.service-card{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+}
+.view-more{
+    background-color: rgb(105, 87, 209);
+
+}
+.quotes-img img{
+    width: 100%;
+    max-width: 100px; 
+}
+.author img {
+    width: 100%;
+    max-width: 80px;
+    border-radius: 50%;
+}
+.payment-options i{
+    font-size: 3.5rem;
+    color: rgb(105, 87, 209);
+
+}
+.payment-title{
+    font-size: 3rem;
+}
+.payment-right{
+    position: relative;
+}
+.payment-bg{
+    max-width: 500px;
+    transform: skew(3deg,0deg);
+}
+.payment-bg img{
+    width: 100%;
+    border-radius: 50px;
+}
+.payment-icons{
+    position: absolute;
+    right: 56px;
+    top: -6px;
+    bottom: 20px;
+    max-width: 285px;
+}
+.payment-icons img{
+    width: 100%;
+}
+.last-operation{
+    position: absolute;
+    left: 10px;
+    bottom: 0px;
+    max-width: 208px;
+}
+.last-operation img{
+    width: 100%;
+}
+#update-back{
+    background-color: #1313b600;
+   
+}
+.Updated-title{
+    font-size: 3rem;
+}
+.back-img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.back-img img{
+    opacity: 0.2;
+}
+.about-change-bg{
+    position: relative;
+    border-radius: 50px;
+}
+.footer-logo{
+    max-width: 200px;
+}
+.footer-logo img{
+    width: 100%;
+}
+.page-links h2{
+    color: blueviolet;
+    font-size: 1.4rem;
+}
+.page-links a{
+    line-height: 2;
+}
+
+/* --------------------------------------------media query for laptop---------------------------- */
+ @media only screen and (max-width: 1024px) and (min-width: 576px)  
+{
+    .navbar-nav{
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+    .hero-row{
+        flex-direction: column-reverse;
+    }
+    .efficiency{
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        max-width: 250px;
+    } 
+    .hero-left, .service-img-div, .service-text-content , .merchant-left, .merchant-right, .payment-right, .payment-left{
+        width: 100%;
+    }
+    .service-row, .merchant-row, .payment-row{
+        flex-direction: column;
+    }
+    .merchant-bg{
+        max-width: 800px;
+    }
+    .shoping-icons{
+        max-width: 400px;
+    }
+    .last-cost{
+        position: absolute;
+        left: -14px;
+        bottom: -69px;
+        max-width: 250px;
+    }
+    .payment-bg{
+        max-width: 800px;
+    }
+    .payment-icons{
+        position: absolute;
+        right: 30px;
+        top: 21px;
+        bottom: 20px;
+        max-width: 376px;
+    }
+   .service-card{
+    display: grid;
+    grid-template-columns: auto auto;
+   }
+   .hero-head-title, .payment-title{
+    font-size: 2.5rem;
+   }
+   
+} 
+/* --------------------------------------------media query for tablet---------------------------- */
+
+@media only screen and (max-width: 768px) and (min-width: 576px)  
+{
+    .navbar-nav{
+        font-size: 0.9rem;
+        font-weight: 600;
+    }
+    .efficiency{
+        position: absolute;
+        top: 0px;
+        right: 155px;
+        max-width: 250px;
+    }
+    .payment-icons{
+        position: absolute;
+        right: -3px;
+        top: -13px;
+        bottom: 20px;
+        max-width: 286px;
+    }
+    .footer-row{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .hero-head-title{
+        font-size: 2.5rem;
+    }
+ 
+    .slide{
+        max-width: 700px;
+        padding: 0px 6px;
+    }
+}
+/* --------------------------------------------media query for large screen mobile---------------------------- */
+
+@media only screen and (max-width: 576px) and (min-width: 425px)  
+{
+    .hero-row{
+        flex-direction: column-reverse;
+    }
+    .hero-btn{
+        display: flex;
+    }
+    .efficiency{
+        display: none;
+    } 
+    
+    .hero-left, .service-img-div, .service-text-content , .merchant-left, .merchant-right, .payment-right, .payment-left{
+        width: 100%;
+    }
+    .hero-right img{
+        max-width: 300px;
+        max-height: 600px;
+    }
+    .service-row, .merchant-row, .payment-row{
+        flex-direction: column;
+    }
+    .merchant-bg{
+        max-width: 400px;
+    }
+    .shoping-icons,.last-cost{
+        display: none;
+    }
+    .last-cost{
+        position: absolute;
+        left: -14px;
+        bottom: -69px;
+        max-width: 250px;
+    }
+    .payment-bg{
+        max-width: 800px;
+    }
+    .payment-icons{
+      display: none;
+    }
+   .service-card{
+    display: grid;
+    grid-template-columns: auto auto;
+   }
+   .customer-logos{
+    flex-direction: column;
+   }
+   .service-card{
+    display: grid;
+    grid-template-columns: auto;
+   }
+   .last-operation{
+    display: none;
+   }
+   .service-img-div{
+    min-height: 350px;
+   }
+   .back-img{
+    display: none;
+   }
+   .hero-head-title, .service-head-title{
+    font-size: 2rem;
+   }
+   .hero-btn a{
+    font-size: 1rem;
+    margin: 0px;
+    text-align: center;    
+   }
+   .service-content-list{
+    flex-direction: column;
+   }
+   .service-content-list i{
+    width: 80px;
+    margin-left: 40px;
+   }
+   .service-section i{
+    background-color:  rgb(110, 58, 194);
+    color: rgb(221, 224, 226);
+   }
+   .merchant-bg{
+    transform: skew(0deg,0deg);
+    margin-top: 25px;
+   }
+   .payment-title{
+    font-size: 1.5rem;
+   }
+   .Updated-title {
+    font-size: 1.5rem;
+   }
+   .input-field-content{
+    flex-direction: column;
+   }
+
+   .easy-pay{
+    display: none;
+   }
+   .menu-options-list{
+    display: none;
+   }
+}
+/* --------------------------------------------media query for middle screen mobile---------------------------- */
+
+@media only screen and (max-width: 576px) and (min-width: 375px)
+{
+    .hero-row{
+        flex-direction: column-reverse;
+    }
+    .hero-btn{
+        display: flex;
+    }
+    .efficiency{
+        display: none;
+    } 
+    
+    .hero-left, .service-img-div, .service-text-content , .merchant-left, .merchant-right, .payment-right, .payment-left{
+        width: 100%;
+    }
+    .hero-right img{
+        max-width: 250px;
+        max-height: 600px;
+    }
+    .service-row, .merchant-row, .payment-row{
+        flex-direction: column;
+    }
+    .merchant-bg{
+        max-width: 400px;
+    }
+    .shoping-icons,.last-cost{
+        display: none;
+    }
+    .last-cost{
+        position: absolute;
+        left: -14px;
+        bottom: -69px;
+        max-width: 250px;
+    }
+    .payment-bg{
+        max-width: 800px;
+    }
+    .payment-icons{
+      display: none;
+    }
+   .service-card{
+    display: grid;
+    grid-template-columns: auto auto;
+   }
+   .customer-logos{
+    flex-direction: column;
+   }
+   .service-card{
+    display: grid;
+    grid-template-columns: auto;
+   }
+   .last-operation{
+    display: none;
+   }
+   .service-img-div{
+    min-height: 350px;
+   }
+   .back-img{
+    display: none;
+   }
+   .hero-head-title, .service-head-title{
+    font-size: 2rem;
+   }
+   .hero-btn a{
+    font-size: 1rem;
+    margin: 0px;
+    text-align: center;    
+   }
+   .service-content-list{
+    flex-direction: column;
+   }
+   .service-content-list i{
+    width: 80px;
+    margin-left: 40px;
+   }
+   .service-section i{
+    background-color:  rgb(110, 58, 194);
+    color: rgb(221, 224, 226);
+   }
+   .merchant-bg{
+    transform: skew(0deg,0deg);
+    margin-top: 25px;
+   }
+   .payment-title{
+    font-size: 1.5rem;
+   }
+   .Updated-title {
+    font-size: 1.5rem;
+   }
+   .input-field-content{
+    flex-direction: column;
+   }
+   .easy-pay{
+    display: none;
+   }
+  
+}
+
+/* --------------------------------------------media query for small screen mobile---------------------------- */
+
+@media only screen and (max-width: 576px) and (min-width: 320px)
+{
+    .upper-heaer{
+        display: none;
+    }
+    .hero-row{
+        flex-direction: column-reverse;
+    }
+    .hero-btn{
+        display: flex;
+        flex-direction: column;
+    }
+    .efficiency{
+        display: none;
+    } 
+    
+    .hero-left, .service-img-div, .service-text-content , .merchant-left, .merchant-right, .payment-right, .payment-left{
+        width: 100%;
+    }
+    .hero-right img{
+        max-width: 200px;
+        max-height: 600px;
+    }
+    .service-row, .merchant-row, .payment-row{
+        flex-direction: column;
+    }
+    .merchant-bg{
+        max-width: 400px;
+    }
+    .shoping-icons,.last-cost{
+        display: none;
+    }
+    .last-cost{
+        position: absolute;
+        left: -14px;
+        bottom: -69px;
+        max-width: 250px;
+    }
+    .payment-bg{
+        max-width: 800px;
+    }
+    .payment-icons{
+      display: none;
+    }
+   .service-card{
+    display: grid;
+    grid-template-columns: auto auto;
+   }
+   .customer-logos{
+    flex-direction: column;
+   }
+   .service-card{
+    display: grid;
+    grid-template-columns: auto;
+   }
+   .last-operation{
+    display: none;
+   }
+   .service-img-div{
+    min-height: 350px;
+   }
+   .back-img{
+    display: none;
+   }
+   .hero-head-title, .service-head-title{
+    font-size: 2rem;
+   }
+   .hero-btn a{
+    font-size: 1rem;
+    margin: 0px;
+    text-align: center;    
+   }
+   .service-content-list{
+    flex-direction: column;
+   }
+   .service-content-list i{
+    width: 80px;
+    margin-left: 40px;
+   }
+   .service-section i{
+    background-color:  rgb(110, 58, 194);
+    color: rgb(221, 224, 226);
+   }
+   .merchant-bg{
+    transform: skew(0deg,0deg);
+    margin-top: 25px;
+   }
+   .payment-title{
+    font-size: 1.5rem;
+   }
+   .Updated-title {
+    font-size: 1.5rem;
+   }
+   .input-field-content{
+    flex-direction: column;
+   }
+   .input-fields{
+    font-size: 0.65rem;
+   }
+   .easy-pay{
+    display: none;
+   }
+   .payment-options{
+    display: grid;
+    grid-template-columns: auto auto;
+   }
+}
